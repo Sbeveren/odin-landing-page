@@ -2,3 +2,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.header-container {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 16px 32px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-item {
+    font-size: 18px;
+    color: #E5E7EB;
+    cursor: pointer;
+}
