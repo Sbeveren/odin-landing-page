@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header Styles */
 .header-container {
     background-color: #1F2937;
-    font-family: 'Roboto', sans-serif;
 }
 
 .top-header {
@@ -17,6 +17,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 16px 32px;
+    flex-wrap: wrap;
 }
 
 .header-logo {
@@ -33,6 +34,7 @@
     gap: 64px;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .nav-item {
@@ -56,6 +58,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .header-title {
@@ -92,14 +95,14 @@
 }
 
 /* Info Styles */
-.info-container {
-    font-family: 'Roboto', sans-serif;
+.info-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 32px 32px;
+    flex-wrap: wrap;
 }
 
 .info-title {
@@ -114,6 +117,7 @@
     align-items: center;
     gap: 48px;
     padding: 48px 0;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -131,4 +135,40 @@
 .card-text {
     max-width: 200px;
     line-height: 1.2;
+}
+
+/* Quote Styles */
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px 32px;
+    flex-wrap: wrap;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: bold;
 }
